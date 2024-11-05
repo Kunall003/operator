@@ -1,14 +1,43 @@
-Bitwise-operator
-Aim: To study and implement C++ Bitwise operators
+# Arithmetic_Operators
 
-Theory: Bitwise operators are used in C++ to perform operations at the bit level. These operators are highly efficient and are commonly used for low-level programming, graphics, and tasks requiring optimal performance. The main bitwise operators are: Bitwise AND (&): Sets each bit to 1 if both corresponding bits are 1.
+## AIM - 
+To use operators to add two numbers.
+## Software Used
+VS Code
+## Theory
+Airthmetic operators are symbols used in programming to perform operations on variables and values. They are important to writing expressions and making decisions in code.
 
-Bitwise OR (|): Sets each bit to 1 if at least one corresponding bit is 1.
+### Types: 
+Addition (+): Adds two operands.
+Example: a + b
+Subtraction (-): Subtracts the second operand from the first.
+Example: a - b
+Multiplication (*): Multiplies two operands.
+Example: a * b
+Division (/): Divides the numerator by the denominator.
+Example: a / b
+Modulus (%): Returns the remainder of a division operation.
+Example: a % b
 
-Bitwise XOR (^): Sets each bit to 1 if the corresponding bits are different.
+## Algorithm 
 
-Bitwise NOT (~): Inverts all bits of the operand.
+* Start
+* Declare three integer variables: a, b, and c.
+* Prompt and Read First Number
 
-Left Shift (<<): Shifts bits to the left, multiplying the number by 2 for each shift position.
+* Output: "Enter num 1: ".
+Read the input value and store it in variable a.
+Prompt and Read Second Number
 
-Right Shift (>>): Shifts bits to the right, dividing the number by 2 for each shift position.
+* Output: "Enter num 2: ".
+Read the input value and store it in variable b.
+Calculate the Sum
+
+* Compute the sum of a and b and store the result in variable c.
+Output the Result
+
+* Output the result: "The No. is: " followed by the value of c.
+* End
+
+## Conclusion 
+We learnt to use the basic arithmetic operators in C++.
